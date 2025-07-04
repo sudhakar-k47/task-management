@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "123",
+    "database": "trs-task-1",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "storage": "./database.localhost"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "123",
+    "database": "trs-task-1",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "storage": "./database.test.localhost"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "123",
+    "database": "trs-task-1",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "storage": "./database.prod.localhost"
+  }
+}
